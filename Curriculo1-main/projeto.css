@@ -1,0 +1,211 @@
+body {
+    background-color: #5c9dfb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#home {
+    align-items: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+
+    background-color: transparent;
+    width: 46px;
+    text-align: center;
+    height: auto;
+    text-decoration: none;
+}
+
+#home:hover {
+    align-items: center;
+    transform: scale(1.2);
+    background-color: #106ef6;
+    box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.4);
+    border-radius: 2px 2px 2px;
+}
+
+ul {
+    text-align: center  ;
+    box-shadow: 8px, 8px, 1px, rgb(0, 0, 0);
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    margin-top: 170px;
+    box-sizing: border-box;  
+}
+
+.projectdirect {
+    text-decoration: none;
+    padding: 0;
+    color: white;
+}
+
+.cards {
+    width: 700px;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 100px;
+    list-style-type: none;
+    padding: 40px;
+    margin-top: auto;
+    margin: 20px;
+    margin-bottom: 30px;
+    box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.4);
+    background-color: #106ef6;
+
+}
+
+h4 {
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    text-align: center;
+    color: black;
+
+}
+
+.projectdirect:hover {
+    color: rgb(161, 52, 224) ;
+}
+
+h1 {
+    border-radius: 15px;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    padding: 2px;
+    width: 350px;
+    margin: 0;
+    color: white;
+    justify-content: center;
+    box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.4);
+    background-color: #106ef6;
+}
+
+ul {
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0;
+}
+
+@media(max-width: 800px) {
+   
+    .cards {
+        display: flex;
+    }
+
+    .cards {
+        position: absolute;
+        width: 1%;
+        height: auto;
+        border-radius: 15px;
+        margin-top: 0;
+        list-style-type: none;
+        padding: 200px;
+        margin-top: 0;
+        margin: 10px;
+        margin-bottom: 10px;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    p {
+        position: absolute;
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        size: 10px;
+        font-size: medium;
+        bottom: 0.01%;
+    }
+
+    .projectdirect {
+        text-decoration: none;
+        padding: 0;
+    }
+
+    h4 {
+        bottom: 73%;
+        display: flex;
+        position: absolute;
+        justify-content: space-between;
+        margin: 30px;
+    }
+
+    #card1 {
+        top: 300px;
+    }
+
+    #card2 {
+        top: 1000px;
+    }
+
+    #card3 {
+        top: 1700px;
+    }
+
+    #card4 {
+        top: 2400px;
+    }
+
+    footer {
+        margin: 10px;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        height: 3100px;
+        width: 100%;
+    }
+    
+    #home {
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        width: 46px;
+        text-align: center;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    #home {
+        text-decoration: none;
+    }
+    
+    #home:hover {
+        align-items: center;
+        transform: scale(1.2);
+        border-radius: 2px 2px 2px;
+    }
+    
+    p {
+        text-align: justify;
+        margin: 20px;
+    }
+}
